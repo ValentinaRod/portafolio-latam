@@ -43,10 +43,8 @@ header .container{
 
 }
 
-
-
 /** about-me  **/
-.aboutme-hr, .experience-hr, .works-hr{
+.aboutme-hr, .experience-hr, .works-hr, .contact_hr{
     border: 1.5px solid #373A3C;
     width: 9%;
     margin-top: 20px;
@@ -66,7 +64,7 @@ header .container{
 
 /* Section experience */
 
-.section-experience h2, .section-works h2{
+.section-experience h2, .section-works h2, .section-contact h2{
     font-size: 52px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
@@ -94,5 +92,5 @@ header .container{
 }
 
 .footer-port p{
-    padding: 70px;
+    padding: 60px;
 }
