@@ -17,12 +17,33 @@ a.nav-link{
 /** Section hero **/
 header {
     width: 100%;
-    height: 100%;
+    height: 737px;
     background-image: url("../img/section_hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
 }
+
+header h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 72px;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    display: inline-block;
+}
+
+header p{
+    font-size: 72px;
+    font-family: 'Oswald', sans-serif
+}
+
+header .container{
+    padding: 489px 0 0 0;
+
+}
+
+
 
 /** about-me  **/
 .aboutme-hr, .experience-hr, .works-hr{
