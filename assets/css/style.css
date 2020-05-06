@@ -15,12 +15,13 @@ a.nav-link{
 }
 
 /** Section hero **/
-.hero-section{
+header {
     width: 100%;
     height: 100%;
-    background-image: url("assets\img\section_hero.jpg");
-    
+    background-image: url("../img/section_hero.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 /** about-me  **/
