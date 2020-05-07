@@ -78,9 +78,7 @@ header .container{
 }
 
 /* footer port  */
-.footer-port{
-    height: 221px;
-}
+
 .footer-port p{
     color: white;
     font-size: 52px;
@@ -101,14 +99,27 @@ header .container{
 /* Media Queries*/
 
 @media only screen and (min-width: 320px) {
+    .nav-mobile{
+        display: inline-block;
+    }
+
     .footer-port p {
-        padding: 0px;
-        padding-top: 30px;
+        font-size: 42px;
+        padding: 0;
     }
 
     .footer-port  i{
         color: white;
         padding: 0;
+        
+    }
+
+    #about{
+        display: none;
+    }
+
+    .section-experience h2 {
+        font-size: 42px;
         
     }
   }
