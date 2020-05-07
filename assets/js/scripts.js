@@ -22,4 +22,9 @@ $(function(){
     //popovers
     $('[data-toggle="popover"]').popover()
 
+    //carousel
+    $('.carousel').carousel({
+        interval: 2000
+      })
+
 });

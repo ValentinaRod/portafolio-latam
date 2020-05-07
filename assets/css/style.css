@@ -20,13 +20,11 @@ a.nav-link{
 }
 
 /** Section hero **/
-header {
-    width: 100%;
-    height: 737px;
-    background-image: url("../img/section_hero.jpg");
-    background-size: cover;
+header{
+    background-image: url("../img/section_hero.png");
+    background-size: cover !important;
     background-repeat: no-repeat;
-    
+    background-position: center center; /*hizo que mi imagen sea mas responsive*/
 }
 
 header h1{
@@ -91,7 +89,7 @@ header .container{
 }
 
 .footer-port  i{
-    display: inline-block;
+    
     color: white;
     padding: 80px 15px 0 0;
 }
@@ -99,3 +97,15 @@ header .container{
 .footer-port p{
     padding: 60px;
 }
+
+/* Media Queries*/
+
+@media only screen and (min-width: 320px) {
+     /*.hero-section {
+      background-image: url('../img/mb-herosection.jpg');
+      width: 100%;
+      height: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }*/
+  }
