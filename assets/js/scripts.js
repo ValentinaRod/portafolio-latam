@@ -16,4 +16,10 @@ $(function(){
         }
     });
 
+    //tooltips experience
+    $('[data-toggle="tooltip"]').tooltip()
+
+    //popovers
+    $('[data-toggle="popover"]').popover()
+
 });

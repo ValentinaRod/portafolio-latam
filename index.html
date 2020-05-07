@@ -72,18 +72,25 @@
    <section id="experience" class="container section-experience text-center py-3 my-3">
        <h2 class="text-center py-3">MI EXPERIENCIA</h2>
        <hr class="experience-hr">
-       <div class="row">
-           <div class="col-md-3">
-                <i class="fab fa-html5 fa-10x"></i>
+       <div id="port-carousel" class="row bg-info text-white roundend">
+          <div class="carousel-slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#port-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#port-carousel" data-slide-to="1"></li>
+            </ol>
+          </div>
+          <div class="carousel-inner"></div>
+          <div class="col-md-3" >
+                <i class="fab fa-html5 fa-10x"  data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Html5"></i>
            </div>
            <div class="col-md-3">
-                <i class="fab fa-css3-alt fa-10x"></i>
+                <i class="fab fa-css3-alt fa-10x" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="CSS3"></i>
            </div>
            <div class="col-md-3">
-                <i class="fab fa-js fa-10x"></i>
+                <i class="fab fa-js fa-10x" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Javascripts"></i>
            </div>
            <div class="col-md-3">
-                <i class="fab fa-bootstrap fa-10x"></i>
+                <i class="fab fa-bootstrap fa-10x" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Bootstrap"></i>
             </div>
 
        </div>
@@ -96,7 +103,7 @@
         <div class="row row-cols-1 row-cols-md-3 py-5">
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/img/meet_coffee.png" class="card-img-top" alt="pagina de meet and coffe">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -105,7 +112,7 @@
             </div>
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/img/iguana_page.png" class="card-img-top" alt="pagina de la iguana">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a short card.</p>
@@ -114,7 +121,7 @@
             </div>
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/img/suricata.png" class="card-img-top" alt="Pagina de suricata">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -125,7 +132,7 @@
         <div class="row row-cols-1 row-cols-md-3 mb-5">
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/img/cuppon.png" class="card-img-top" alt="pagina de cuppon">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -134,7 +141,7 @@
             </div>
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/img/ricomida.png" class="card-img-top" alt="pagina ricomida">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a short card.</p>
@@ -143,7 +150,7 @@
             </div>
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/img/dmark.png" class="card-img-top" alt="pagina dmark">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -171,10 +178,18 @@
                     <p>Valentina</p>
                 </div>
                 <div class="col-md-6 text-left">
-                    <i class="fab fa-github-square fa-4x"></i>
-                    <i class="fab fa-linkedin fa-4x"></i>
-                    <i class="fab fa-twitter-square fa-4x"></i>
-                    <i class="fab fa-facebook-square fa-4x"></i>
+                    <a href="https://github.com/ValentinaRod">
+                      <i class="fab fa-github-square fa-4x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/valentina1425/">
+                      <i class="fab fa-linkedin fa-4x"></i>
+                    </a>
+                    <a href="https://twitter.com/Val3Valentina?s=20">
+                      <i class="fab fa-twitter-square fa-4x"></i>
+                    </a>
+                    <a href="https://web.facebook.com/LaDoku">
+                      <i class="fab fa-facebook-square fa-4x"></i>
+                    </a>
                 </div>
             </div>
         </div>
